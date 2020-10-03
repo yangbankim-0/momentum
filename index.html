@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>momentum</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="clock-box-time"></div>
+        <div class="local-name">
+            <span></span>
+            <input onkeypress="nameEvent(event)" class="local-name-text" type="text" onfocus="this.placeholder=''" onblur="this.placeholder='what is your name?'" placeholder="what is your name?" >
+            <button class="del-storage">X</button>
+        </div>
+        <div class="to-do-list">
+            <input type="text" onkeypress="toDoList(event)" class="to-do-text" onfocus="this.placeholder=''" onblur="this.placeholder='to do list'" placeholder="to do list">
+            <ul class="list-ul">
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./common.js"></script>
+</body>
+</html>

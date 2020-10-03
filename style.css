@@ -1,0 +1,81 @@
+.wrap{
+    background:url("./img/bg2.jpg") no-repeat top left;
+    background-size:cover;
+    height:100vh;
+}
+.clock-box-time{
+    display:flex;
+    font-size:160px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    padding-top:210px;
+    padding-bottom:50px;
+}
+.local-name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.local-name input{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: none;
+    height:60px;
+    width:500px;
+    font-size:40px;
+    color:#fff;
+}
+.local-name input::placeholder{
+    color:#fff;
+    font-size:40px;
+}
+.to-do-list{
+    width:100%;
+    padding-top:30px;
+    text-align: center;
+}
+.to-do-list input[type="text"]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: none;
+    height:60px;
+    width:500px;
+    font-size:20px;
+    color:#fff;
+}
+.to-do-list input::placeholder{
+    color:#fff;
+    font-size:20px;
+}
+.to-do-list ul li{
+    padding:15px;
+    color:#fff;
+    font-size:18px;
+}
+.to-do-list ul li button{
+    margin-right:15px;
+    font-size:20px;
+    padding:7px 10px 3px 10px;
+    cursor:pointer;
+    border:1px solid #fff;
+    background-color:#fff;
+    vertical-align: middle;
+    color: #fff;;
+    background:none;
+}
+
+.local-name span{
+    color:#fff;
+    font-size:40px;
+}
+
+.del-storage{
+    font-size:24px;
+    color:#fff;
+    border:1px solid #fff;
+    background: none;
+    cursor: pointer;
+    display:none;
+    margin-left:20px;
+}
