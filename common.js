@@ -45,10 +45,8 @@ function storageDel(){
 
 delStorage.addEventListener('click', storageDel);
 
-// to-do-list
+// to-do-list app
 let toDoArr = [];
-
-
 function deletEvent(event){
     let btn = event.target;
     let deli = btn.parentNode;
